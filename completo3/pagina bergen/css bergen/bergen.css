@@ -1,0 +1,60 @@
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+        body{
+            margin:0
+        }
+        .main-section {
+            padding: 20px;
+        }
+        .image-container {
+            height: 500px;
+            background-image: url(https://static.visitnorway.com/images/jlrwvnbf/production/7d976a4b993ec9b146c96991bf83ee4cbbe63f41-2000x1000.jpg?rect=48,0,1905,1000&w=1200&h=630&q=75&auto=format);
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            font-family: "Prata", serif;
+            font-size: 64px;
+            font-weight: 400;
+        }
+        h3 {
+            font-family: "Prata", serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0;
+        }
+        h1, h3 {
+            margin-bottom: 0;
+        }
+        a {
+            font-weight: 600;
+            font-style: italic;
+        }
+        h6 {
+            padding: 22px;
+            margin-bottom: 0px;
+            margin-top: 56px;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(to right, #584038, #6481c4);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom: 1px; 
+            border-color: #dfdfdf;
+
+        }
+        ul a {
+            text-decoration: none;
+            color: #584038;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 16px;
+            text-align: center;
+        }
